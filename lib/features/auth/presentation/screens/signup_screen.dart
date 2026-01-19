@@ -56,11 +56,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
     if (!password.contains(RegExp(r'[A-Z]'))) {
       return 'Password must contain at least one uppercase letter';
     }
-    if (!password.contains(RegExp(r'[a-z]'))) {
-      return 'Password must contain at least one lowercase letter';
-    }
-    if (!password.contains(RegExp(r'[0-9]'))) {
-      return 'Password must contain at least one number';
+    if (!password.contains(RegExp(r'[!@#$%^&*(),.?":{}|<>]'))) {
+      return 'Password must contain at least one special character';
     }
     return null; // Return null for valid password
   }
