@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "422616326742",
+    "project_id": "notes-assigment-whatbytes",
+    "storage_bucket": "notes-assigment-whatbytes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422616326742:android:5c708074920d67fc62d1f7",
+        "android_client_info": {
+          "package_name": "com.example.notes_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2sNO_Q4-SvCA-ziSaESG5BMZj9GM1OYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
